@@ -18,21 +18,21 @@ const tabMain = document.querySelector(".tabheader__items")
 
     hideContent()
     showContent()
-//     let SlindeIndex = 0
-// const changeIndex=()=>{
-//     if(SlindeIndex<3){
-//         SlindeIndex+=1
-//         console.log(SlindeIndex)
-//         hideContent()
-//         showContent(SlindeIndex)
-//     }else{
-//         SlindeIndex=0
-//         console.log(SlindeIndex)
-//         hideContent()
-//         showContent(SlindeIndex)
-//     }
-// }
-// const SetSlide =setInterval(changeIndex,1000)
+    let SlindeIndex = 0
+const changeIndex=()=>{
+    if(SlindeIndex<3){
+        SlindeIndex+=1
+        console.log(SlindeIndex)
+        hideContent()
+        showContent(SlindeIndex)
+    }else{
+        SlindeIndex=0
+        console.log(SlindeIndex)
+        hideContent()
+        showContent(SlindeIndex)
+    }
+}
+const SetSlide =setInterval(changeIndex,1000)
     
    
 
